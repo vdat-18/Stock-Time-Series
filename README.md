@@ -23,3 +23,38 @@ To set up the environment, install the required Python libraries by running:
 
 ```bash
 pip install pandas numpy statsmodels matplotlib scikit-learn
+```
+## 🛠️ Tasks Performed
+1. Data Decomposition:
+- The stock price data was decomposed into trend, seasonal, and residual components for better analysis.
+2. Stationarity Check:
+- The Augmented Dickey-Fuller (ADF) test was applied to check the stationarity of the data.
+3. ARIMA Model:
+- Fitted an ARIMA model on 80% of the data for training, followed by model evaluation and forecasting.
+4. Expanding and Sliding Window Techniques:
+- Compared the model performance using both Expanding Window and Sliding Window techniques.
+5. Forecasting:
+- Predicted future stock prices using the trained ARIMA model.
+  
+## 📊 Visualizations
+We have provided several visualizations in the notebook, including:
+- Time series decomposition plots.
+- ADF test results.
+- Forecast vs. actual stock prices.
+- Model performance comparisons for Expanding and Sliding Window splits.
+## 🔍 How to Run
+1. Clone the repository to your local machine:
+```bash
+git clone https://github.com/yourusername/HPG-Stock-TimeSeries-Analysis.git
+```
+2. Open the Jupyter notebook TimeSeriesStock.ipynb.
+3. Ensure the dataset HPG_2010_2024.xlsx is in the same directory as the notebook.
+4. Run the notebook cells to execute the analysis.
+## 🚀 Future Work
+- Implement advanced models like SARIMA or Prophet for improved forecasting.
+- Incorporate additional market indicators such as Volume or Volatility for enhanced predictions.
+- Expand the dataset to include multiple companies for broader financial analysis.
+## 👨‍💻 Author
+Dat Nguyen  <br>
+Email: ngvdat.w@gmail.com  <br>
+GitHub: github.com/vdat-18  <br>
