@@ -1,29 +1,25 @@
-# Time Series Analysis on HPG Stock Data
+# 📈 Time Series Analysis on HPG Stock Data
 
-## Overview
-This project focuses on time series analysis using the stock data of Hòa Phát Group (HPG) from 2010 to 2024. The analysis includes decomposing the data, stationarity checks, and forecasting using ARIMA models. We also explore different data splitting techniques such as Expanding and Sliding Window to evaluate model performance.
+![HPG Logo](https://upload.wikimedia.org/wikipedia/vi/thumb/7/77/HPG_H%C3%B2a_Ph%C3%A1t_Group.png/220px-HPG_H%C3%B2a_Ph%C3%A1t_Group.png)
 
-## Files
+## 🌟 Overview
+This project focuses on **time series analysis** using the stock data of **Hòa Phát Group (HPG)** from **2010 to 2024**. The analysis involves:
+- Decomposing the stock price data
+- Checking for stationarity and correlations
+- Forecasting future prices using ARIMA models
+- Exploring data splitting techniques: **Expanding Window** and **Sliding Window**
 
-- **Timeseries.pdf**: This document outlines the detailed requirements for the analysis, including the tasks and objectives related to time series forecasting of HPG stock prices.
-- **HPG_2010_2024.xlsx**: The dataset contains stock price data of Hòa Phát Group from 2010 to 2024.
-- **TimeSeriesStock.ipynb**: Jupyter notebook containing the full implementation of the time series analysis, including:
-  - Data preprocessing
-  - Stationarity checks using ADF test
-  - ARIMA model fitting
-  - Data splitting using Expanding and Sliding Window techniques
-  - Model evaluation and forecasting future stock prices
+## 📂 Files Included
 
-## Requirements
-- Python 3.x
-- Libraries:
-  - `pandas`
-  - `numpy`
-  - `statsmodels`
-  - `matplotlib`
-  - `sklearn`
+| File Name                 | Description                                                                          |
+|---------------------------|--------------------------------------------------------------------------------------|
+| **Timeseries.pdf**         | A document outlining tasks and objectives for time series analysis on HPG stock data.|
+| **HPG_2010_2024.xlsx**     | The dataset containing HPG stock price data from 2010 to 2024.                       |
+| **TimeSeriesStock.ipynb**  | Jupyter notebook with the complete implementation of the time series analysis.       |
 
-You can install the required libraries using the following command:
+## ⚙️ Installation
+
+To set up the environment, install the required Python libraries by running:
+
 ```bash
 pip install pandas numpy statsmodels matplotlib scikit-learn
-  
